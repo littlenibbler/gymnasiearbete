@@ -1,0 +1,4 @@
+LDA 15
+ADD 14
+OUT
+HLT

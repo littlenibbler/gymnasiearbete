@@ -1,0 +1,15 @@
+LDI 2
+STA 128
+JMP 8
+LDA 128
+SUI 1
+JC 16
+LDA 129
+OUT
+HLT
+STA 128
+LDA 129
+ADD 26
+STA 129
+JMP 6
+make sure to put a number into slot 26 in ROM
